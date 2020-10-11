@@ -11,7 +11,9 @@ Buitl with HTML basic CSS and JavaScript we have a final application that will s
 
 ---
 
-## Project links
+## Project
+
+https://valiant87.github.io/day-planner/
 
 ![project-foto](assets/dayplanner.png)
 
