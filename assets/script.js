@@ -11,7 +11,7 @@ $(document).ready(function() {
     //Populates time block from local storage
     renderData();
     // Saves stored data to local storage
-    $("button").on("click", saveData);
+    $("button").on("click", dataSave);
 })
 
 // This will use moment.js to get the current date and time format
@@ -99,7 +99,7 @@ function getLocalStorage(item) {
     return output.textarea;
 };
 // This function will store the value into the local storage
-function dataSaved(event) {
+function dataSave(event) {
     event.preventDefault();
     textarea = $(this).parent().find("textarea").get(0).value;
     dataNum = $(this).parent().attr("value")
